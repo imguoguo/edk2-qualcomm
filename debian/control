@@ -13,7 +13,8 @@ Package: edk2-qualcomm
 Architecture: all
 Section: admin
 Priority: optional
-Depends: ${misc:Depends},
+Depends: edl-ng,
+         ${misc:Depends},
 Description: Qualcomm EDK II firmwares
  This package provides the prebuilt Qualcomm EDK II firmwares.
 
